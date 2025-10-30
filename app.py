@@ -1,6 +1,8 @@
 import streamlit as st
 
-import pandas as pd 
+import pandas as pd
+
+
 # Obs:
 #Pandas trabalha de forma tabular, ou seja, todas as análises em tabalas semelhantes ao execel.
 import plotly.express as px 
@@ -23,5 +25,8 @@ fig2 = px.histogram(df_top100_books["book price"])
 
 col1, col2 = st.columns(2)
 
+
 col1.plotly_chart (fig)
 col2.plotly_chart (fig2)
+
+

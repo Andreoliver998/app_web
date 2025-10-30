@@ -7,6 +7,6 @@ sys.exit(stcli.main())
 
 
 # Obs: 
-# Pandas, vai o responsável pela manipulação de dados
+# Pandas, vaisre o responsável pela manipulação de dados
 # Plotly, vai ser o resposável pela biblioteca para contruir gráficos
 #(streamlit run app.py)  vai ser responsável para iniciar o aplicativo na web.  
